@@ -1,0 +1,847 @@
+@charset "utf-8";
+/* *******************************************************
+ * filename : main.css
+ * description : 메인 CSS
+******************************************************** */
+
+/*
+Font style
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif, 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+/**********************************
+Cover
+*********************************/
+#cover {
+    width: 1920px;
+    height: 900px;
+    color: #fff;
+    position: relative;
+    background: url(../images/pc/cover_bg.jpg) no-repeat center center;
+}
+
+#cover .stit_left {
+    position: absolute;
+    left: 385px;
+    top: 50px;
+    font-size: 1.5rem;
+}
+
+#cover .tit {
+    position: absolute;
+    left: 385px;
+    top: 270px;
+    background: url(../images/pc/Line%201.jpg) no-repeat left bottom;
+    padding-bottom: 30px;
+}
+
+#cover .txt_kor {
+    position: absolute;
+    left: 385px;
+    bottom: 120px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+
+#cover .iphone1 {
+    position: absolute;
+    left: 960px;
+    top: 165px;
+}
+
+#cover video {
+    width: 19%;
+    position: absolute;
+    left: 1030px;
+    top: 269px;
+    border: 1px solid #000;
+}
+
+#cover .video_bg {
+    position: absolute;
+    background: #fff;
+    width: 367px;
+    height: 33px;
+    left: 1030px;
+    top: 267px;
+    border-bottom: 1px solid #000;
+}
+
+#cover .stit_right {
+    position: absolute;
+    top: 50px;
+    right: 185px;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    text-align: right;
+}
+
+#cover .cover_logo {
+    position: absolute;
+    top: 365px;
+    right: 185px;
+}
+
+#cover .cover_appicon {
+    position: absolute;
+    top: 455px;
+    right: 220px;
+}
+
+#cover .tool {
+    position: absolute;
+    bottom: 60px;
+    right: 185px;
+    text-align: right;
+    width: 8%;
+}
+
+#cover .tool p {
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+#cover .tool ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/**********************************
+Concept
+*********************************/
+#concept {
+    width: 100%;
+    height: 1200px;
+    color: #000;
+    position: relative;
+    margin: 300px 0 200px;
+}
+
+#concept .stit {
+    position: absolute;
+    left: 385px;
+    font-size: 1.25rem;
+}
+
+
+#concept .keyword {
+    position: absolute;
+    left: 385px;
+    top: 460px;
+    background: url(../images/pc/Line%202.jpg) no-repeat left top;
+    padding-top: 80px;
+    width: 70%;
+}
+
+#concept .keyword p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #331a55;
+}
+
+
+#concept .keyword p:nth-child(2) {
+    font-size: 1.875rem;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+#concept .keyword p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 420px;
+    top: 147px;
+}
+
+
+#concept .overview {
+    position: absolute;
+    left: 385px;
+    top: 125px;
+    background: url(../images/pc/Line%202.jpg) no-repeat left top;
+    padding-top: 80px;
+    width: 70%;
+}
+
+#concept .overview p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #331a55;
+}
+
+
+#concept .overview p:nth-child(2) {
+    font-size: 1.875rem;
+    line-height: 1.5;
+    padding-top: 30px;
+}
+
+#concept .overview p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 420px;
+    top: 147px;
+}
+
+#concept .moodboard {
+    display: flex;
+    width: 1350px;
+    justify-content: space-between;
+    position: absolute;
+    left: 385px;
+    bottom: 0;
+}
+
+/**********************************
+Design
+*********************************/
+#design {
+    width: 1920px;
+    height: 1455px;
+    background: #5a4675;
+    box-sizing: border-box;
+    padding: 100px 185px 100px 385px;
+    position: relative;
+    color: #fff;
+}
+
+#design .stit {
+    font-size: 1.25rem;
+    opacity: 0.5;
+}
+
+
+#design .type {
+    padding-top: 80px;
+    margin-top: 80px;
+    background: url(../images/pc/Line%205.png) no-repeat left top;
+    width: 30%;
+}
+
+#design .type > p {
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+
+#design .type_kor {
+    padding-top: 30px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+#design .type_kor p:nth-child(2) {
+    padding-top: 35px;
+    font-size: 1.875rem;
+}
+
+#design .type_eng {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 775px;
+    top: 340px;
+}
+
+#design .type_eng p:nth-child(2) {
+    padding-top: 35px;
+    font-size: 1.875rem;
+}
+
+#design .color {
+    width: 580px;
+    height: 570px;
+    position: absolute;
+    top: 350px;
+    right: 185px;
+}
+
+#design .color ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#design .color ul li:nth-child(4) {
+    padding-top: 50px;
+}
+
+#design .color ul li:nth-child(5) {
+    padding-top: 50px;
+}
+
+#design .color ul li:nth-child(6) {
+    padding-top: 50px;
+}
+
+#design .color p {
+    padding-top: 30px;
+    text-align: right;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+
+#design .icon {
+    position: absolute;
+    bottom: 100px;
+}
+
+#design .icon img {
+    padding-top: 50px;
+}
+
+#design .icon p:nth-child(2) {
+    padding-top: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+#design .icon p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    background: url(../images/pc/Line%205.jpg) no-repeat left top;
+    padding-top: 80px;
+}
+
+/**********************************
+Wireframe
+*********************************/
+
+#wireframe {
+    padding: 200px 185px 200px 385px;
+}
+
+#wireframe .tit p:nth-child(1) {
+    font-size: 1.875rem;
+    background: url(../images/pc/Line%202.jpg)no-repeat left top;
+    padding-top: 80px;
+    color: #331a55;
+    font-weight: bold;
+}
+
+#wireframe .tit p:nth-child(2) {
+    padding-top: 30px;
+    font-size: 1.25rem;
+    padding-bottom: 125px;
+    color: #000;
+}
+
+/**********************************
+Userflow
+*********************************/
+
+#userflow {
+    padding: 0px 185px 160px 385px;
+    position: relative;
+}
+
+#userflow .tit p:nth-child(1) {
+    font-size: 1.875rem;
+    background: url(../images/pc/Line%202.jpg)no-repeat left top;
+    padding-top: 80px;
+    color: #331a55;
+    font-weight: bold;
+}
+
+#userflow .tit p:nth-child(2) {
+    padding-top: 30px;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+/**********************************
+Splash
+*********************************/
+#splash {
+    width: 1920px;
+    height: 1090px;
+    background: url(../images/pc/splash_bg.jpg) no-repeat center center;
+    position: relative;
+}
+
+#splash div:nth-child(1) {
+    position: absolute;
+    right: 115px;
+    bottom: -60px;
+}
+
+#splash div:nth-child(2) {
+    position: absolute;
+    right: 430px;
+    top: 260px;
+}
+
+#splash div:nth-child(3) {
+    position: absolute;
+    right: 115px;
+    top: -65px;
+}
+
+#splash div:nth-child(4) {
+    position: absolute;
+    left: 335px;
+    top: -55px;
+}
+
+#splash div:nth-child(5) {
+    position: absolute;
+    right: 240px;
+    top: 495px;
+}
+
+#splash video {
+    width: 20%;
+    position: absolute;
+    left: 416px;
+    top: 83px;
+    border: 1px solid #000;
+}
+
+#splash div:nth-child(7) {
+    position: absolute;
+    background: #fff;
+    width: 386px;
+    height: 33px;
+    left: 416px;
+    top: 83px;
+    border-bottom: 1px solid #000;
+}
+
+/**********************************
+Walk through
+*********************************/
+#walk {
+    padding: 200px 0px 0px 385px;
+    width: 1920px;
+    position: relative;
+    z-index: 999;
+    height: 1450px;
+    box-sizing: border-box;
+}
+
+#walk .tit {
+    font-size: 1.25rem;
+    color: #000;
+    opacity: 0.5;
+    padding-bottom: 200px;
+}
+
+#walk .walk_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #331a55;
+    background: url(../images/pc/Line%202.jpg) no-repeat left top;
+    padding-top: 80px;
+}
+
+#walk .walk_txt p:nth-child(2) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #000;
+    padding-top: 50px;
+}
+
+#walk div:nth-child(3) {
+    position: absolute;
+    left: 340px;
+    top: 750px;
+    z-index: 99;
+}
+
+#walk div:nth-child(4) {
+    position: absolute;
+    left: 710px;
+    top: 750px;
+    z-index: 99;
+}
+
+#walk div:nth-child(5) {
+    position: absolute;
+    left: 1065px;
+    top: 825px;
+    z-index: 99;
+}
+
+#walk div:nth-child(6) {
+    position: absolute;
+    right: 110px;
+    top: 750px;
+    z-index: 99;
+}
+
+#walk div:nth-child(7) {
+    position: absolute;
+    right: 0%;
+    top: 20%;
+}
+
+/**********************************
+Main
+*********************************/
+#main {
+    height: 1425px;
+    width: 1920px;
+    box-sizing: border-box;
+    margin: 120px 0 200px;
+    padding-left: 385px;
+    position: relative;
+}
+
+#main .main_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #331a55;
+    background: url(../images/pc/Line%202.jpg) no-repeat left top;
+    padding-top: 80px;
+}
+
+#main .main_txt p:nth-child(2) {
+    padding-top: 50px;
+    font-size: 1.875rem;
+    color: #000;
+}
+
+#main .main_txt p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #000;
+    position: absolute;
+    left: 805px;
+    top: 153px;
+}
+
+#main div:nth-child(2) {
+    position: absolute;
+    left: 115px;
+    bottom: -45px;
+    z-index: 99;
+}
+
+#main div:nth-child(3) {
+    position: absolute;
+    left: 575px;
+    top: 390px;
+}
+
+#main div:nth-child(4) {
+    position: absolute;
+    left: 990px;
+    bottom: -45px;
+}
+
+#main div:nth-child(5) {
+    position: absolute;
+    right: 140px;
+    top: 390px;
+}
+
+#main div:nth-child(6) {
+    position: absolute;
+    left: 0%;
+    top: 25%;
+}
+
+#main video {
+    width: 20%;
+    position: absolute;
+    left: 186px;
+    top: 620px;
+    z-index: 999;
+    border: 1px solid #000;
+}
+
+#main div:nth-child(8) {
+    position: absolute;
+    background: #fff;
+    width: 386px;
+    height: 33px;
+    left: 186px;
+    top: 620px;
+    z-index: 999;
+    border-bottom: 1px solid #000;
+}
+
+/**********************************
+All menu
+*********************************/
+#all {
+    width: 1920px;
+    height: 2220px;
+    box-sizing: border-box;
+    padding: 100px 0 0 385px;
+    background: url(../images/pc/allmenu_bg.png) no-repeat center top;
+    color: #fff;
+    position: relative;
+}
+
+#all .all_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    padding-bottom: 50px;
+    font-weight: bold;
+    background: url(../images/pc/Line%205.jpg) no-repeat left top;
+    padding-top: 80px;
+}
+
+#all .all_txt p:nth-child(2) {
+    font-size: 1.875rem;
+    line-height: 1.5;
+}
+
+#all div:nth-child(2) {
+    position: absolute;
+    right: 145px;
+    top: 100px;
+}
+
+#all div:nth-child(3) {
+    position: absolute;
+    left: 340px;
+    top: 455px;
+}
+
+#all div:nth-child(4) {
+    position: absolute;
+    left: 800px;
+    top: 620px;
+}
+
+/**********************************
+Sub-1
+*********************************/
+#sub1 {
+    width: 1920px;
+    height: 2095px;
+    box-sizing: border-box;
+    padding: 250px 0 0 385px;
+    position: relative;
+}
+
+#sub1 .sub1_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    color: #331a55;
+    font-weight: bold;
+    background: url(../images/pc/Line%202.jpg) no-repeat left top;
+    padding-top: 80px;
+}
+
+#sub1 .sub1_txt p:nth-child(2) {
+    padding-top: 50px;
+    font-size: 1.875rem;
+    line-height: 1.5;
+    color: #000;
+}
+
+#sub1 .sub1_txt p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #000;
+    position: absolute;
+    left: 800px;
+    top: 410px;
+}
+
+#sub1 div:nth-child(2) {
+    position: absolute;
+    left: 345px;
+    top: 620px;
+    z-index: 99;
+}
+
+#sub1 div:nth-child(3) {
+    position: absolute;
+    left: 865px;
+    top: 840px;
+}
+
+#sub1 div:nth-child(4) {
+    position: absolute;
+    right: 140px;
+    top: 570px;
+    z-index: 99;
+}
+
+#sub1 div:nth-child(5) {
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+
+#sub1 div:nth-child(6) {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+}
+
+#sub1 video {
+    position: absolute;
+    width: 20%;
+    left: 417px;
+    top: 748px;
+    z-index: 999;
+    border: 1px solid #000;
+}
+
+#sub1 div:nth-child(8) {
+    position: absolute;
+    background: #fff;
+    width: 386px;
+    height: 33px;
+    left: 417px;
+    top: 748px;
+    z-index: 999;
+    border-bottom: 1px solid #000;
+}
+
+/**********************************
+Sub-2
+*********************************/
+
+#sub2 {
+    width: 1920px;
+    height: 1910px;
+    box-sizing: border-box;
+    padding: 100px 0 0 385px;
+    position: relative;
+    background: url(../images/pc/sub2_bg.png) no-repeat center top;
+    color: #fff;
+    margin: 200px 0;
+}
+
+#sub2 .sub2_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    font-weight: bold;
+    background: url(../images/pc/Line%205.png) no-repeat left top;
+    padding-top: 80px;
+}
+
+#sub2 .sub2_txt p:nth-child(2) {
+    font-size: 1.875rem;
+    padding-top: 50px;
+    line-height: 1.5;
+}
+
+#sub2 .sub2_txt p:nth-child(3) {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    position: absolute;
+    left: 800px;
+    top: 260px;
+}
+
+#sub2 div:nth-child(2) {
+    position: absolute;
+    left: 115px;
+    top: 455px;
+}
+
+#sub2 div:nth-child(3) {
+    position: absolute;
+    left: 515px;
+    top: 410px;
+}
+
+#sub2 div:nth-child(4) {
+    position: absolute;
+    left: 915px;
+    top: 855px;
+}
+
+#sub2 div:nth-child(5) {
+    position: absolute;
+    right: 140px;
+    top: 410px;
+}
+
+#sub2 video {
+    width: 20%;
+    position: absolute;
+    right: 211px;
+    top: 538px;
+    border: 1px solid #000;
+}
+
+#sub2 div:nth-child(7) {
+    position: absolute;
+    background: #fff;
+    width: 386px;
+    height: 33px;
+    right: 211px;
+    top: 538px;
+    z-index: 999;
+    border-bottom: 1px solid #000;
+}
+
+/**********************************
+Sub-3
+*********************************/
+
+#sub3 {
+    width: 1920px;
+    height: 1625px;
+    box-sizing: border-box;
+    padding-right: 185px;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+#sub3 .sub3_txt p:nth-child(1) {
+    font-size: 1.875rem;
+    color: #331a55;
+    font-weight: bold;
+    text-align: right;
+    background: url(../images/pc/Line%202.jpg) no-repeat right top;
+    padding-top: 80px;
+}
+
+#sub3 .sub3_txt p:nth-child(2) {
+    font-size: 1.875rem;
+    text-align: right;
+    padding-top: 50px;
+    color: #000;
+}
+
+#sub3 div:nth-child(3) {
+    position: absolute;
+    left: 130px;
+    top: 410px;
+}
+
+#sub3 div:nth-child(4) {
+    position: absolute;
+    left: 645px;
+    top: 200px;
+}
+
+#sub3 div:nth-child(5) {
+    position: absolute;
+    right: 220px;
+    top: 370px;
+}
+
+/**********************************
+End
+*********************************/
+#end {
+    width: 1920px;
+    height: 1940px;
+    text-align: center;
+    background: url(../images/pc/Mockup.png) no-repeat center top;
+}
+
+#end div {
+    padding-top: 1465px;
+}
